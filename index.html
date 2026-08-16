@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Storespark — Build Your Store</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">⚡ Storespark</div>
+
+        <nav>
+            <a href="#generator">Store Builder</a>
+            <a href="#how">How It Works</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section class="hero">
+            <div class="hero-content">
+
+                <div class="badge">🚀 Build your store faster</div>
+
+                <h1>
+                    Turn your product idea
+                    <span>into a store.</span>
+                </h1>
+
+                <p>
+                    Add your product information and Storespark
+                    will instantly create a professional-looking
+                    storefront for you.
+                </p>
+
+                <a href="#generator" class="hero-button">
+                    Start Building →
+                </a>
+
+            </div>
+        </section>
+
+
+        <section id="generator" class="generator-section">
+
+            <div class="section-heading">
+                <p class="small-title">STORE BUILDER</p>
+
+                <h2>
+                    Create your store
+                </h2>
+
+                <p>
+                    Enter your product details below.
+                </p>
+            </div>
+
+
+            <div class="builder">
+
+                <div class="form-card">
+
+                    <h3>Product information</h3>
+
+                    <label>
+                        Product name
+                    </label>
+
+                    <input
+                        id="productName"
+                        type="text"
+                        placeholder="Example: Portable Dog Ball Launcher"
+                    >
+
+
+                    <label>
+                        Product price
+                    </label>
+
+                    <input
+                        id="productPrice"
+                        type="number"
+                        placeholder="39.99"
+                        step="0.01"
+                    >
+
+
+                    <label>
+                        Product image URL
+                    </label>
+
+                    <input
+                        id="productImage"
+                        type="url"
+                        placeholder="https://example.com/product.jpg"
+                    >
+
+                    <p class="help-text">
+                        Paste a direct link to your product image.
+                    </p>
+
+
+                    <label>
+                        Product description
+                    </label>
+
+                    <textarea
+                        id="productDescription"
+                        placeholder="Describe your product..."
+                    ></textarea>
+
+
+                    <label>
+                        Store name
+                    </label>
+
+                    <input
+                        id="storeName"
+                        type="text"
+                        placeholder="Example: SparkShop"
+                    >
+
+
+                    <button
+                        id="generateButton"
+                        class="generate-button"
+                    >
+                        ✨ Generate My Store
+                    </button>
+
+                </div>
+
+
+                <div class="preview-card">
+
+                    <div class="preview-header">
+                        <span>LIVE PREVIEW</span>
+                    </div>
+
+
+                    <div id="storePreview" class="store-preview">
+
+                        <div class="preview-placeholder">
+
+                            <div class="placeholder-icon">
+                                🛍️
+                            </div>
+
+                            <h3>
+                                Your store will appear here
+                            </h3>
+
+                            <p>
+                                Enter your product details
+                                and click Generate My Store.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="how" class="how-section">
+
+            <div class="section-heading">
+
+                <p class="small-title">
+                    HOW IT WORKS
+                </p>
+
+                <h2>
+                    Three simple steps.
+                </h2>
+
+            </div>
+
+
+            <div class="steps">
+
+                <div class="step">
+
+                    <div class="step-number">
+                        1
+                    </div>
+
+                    <h3>
+                        Find a product
+                    </h3>
+
+                    <p>
+                        Find a product you want to sell
+                        and collect its information.
+                    </p>
+
+                </div>
+
+
+                <div class="step">
+
+                    <div class="step-number">
+                        2
+                    </div>
+
+                    <h3>
+                        Add it to Storespark
+                    </h3>
+
+                    <p>
+                        Enter the product name, image,
+                        price and description.
+                    </p>
+
+                </div>
+
+
+                <div class="step">
+
+                    <div class="step-number">
+                        3
+                    </div>
+
+                    <h3>
+                        Generate your store
+                    </h3>
+
+                    <p>
+                        Storespark creates a storefront
+                        preview for your product.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-logo">
+            ⚡ Storespark
+        </div>
+
+        <p>
+            Build. Launch. Grow.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
